@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Google Sans","Open Sans","quicksand";
+}
+body{
+    background-color: #efefef;
+    background-image: url(../assets/profile-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.outer{
+
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-right:20px;
+    padding-left:20px;
+
+}
+.top{
+    background-image: url("../assets/setup-top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 35px 20px; 
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.dev{
+    display: none;
+}
+.cust{
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+textarea {
+    resize: none;
+}
+
+.sub{
+
+    float: right;
+}
+
+.usr-text{
+    padding-left: 50px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    position: relative;
+
+}
+
+.inp{
+    border: none;
+    box-sizing: border-box;
+    height: 53px;
+    border: .5px solid #542ebf;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 18px 0px 0px -35px;
+    width: 580px;
+    box-shadow:3px 5px 6px rgba(0,0,0,.16);
+    outline: none;
+}
+.phh{
+    border: none;
+    box-sizing: border-box;
+    height: 53px;
+    border: .5px solid #542ebf;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 16px 0px 0px 20px;
+    width: 580px;
+    box-shadow:3px 5px 6px rgba(0,0,0,.16);
+    outline: none;
+    width:280px;
+
+}
+
+.span1{
+    position:absolute;
+    background-color: #fff;
+    color: #542ebf;
+    font-weight: bold;
+    padding:0px 4px;
+    left: 35px;
+    top:6px;
+    z-index:1;
+}
+.inp-size{
+    width: 280px;
+}
+.sel{
+    padding: 8px;
+    border: none;
+    height: 53px;
+    position: relative;
+    box-sizing: border-box;
+    border: .5px solid #542ebf;
+    border-radius: 10px;
+    margin: 17px 0px 0px -83px;
+    width:  280px !important;
+    box-shadow:3px 5px 6px rgba(0,0,0,.16);
+    outline: none;
+}
+
+.sel1{
+    padding: 8px;
+    border: none;
+    height: 53px;
+    position: relative;
+    box-sizing: border-box;
+    border: .5px solid #542ebf;
+    border-radius: 10px;
+    margin: 17px 0px 0px -83px;
+    width:  280px !important;
+    box-shadow:3px 5px 6px rgba(0,0,0,.16);
+    outline: none;
+}
+
+
+
+.selectpicker{
+    box-sizing: border-box;
+    height: 53px !important;
+    width: 280px;
+    border-radius: 10px;
+    background-color: white !important;
+}
+.lel{
+    display: flex;
+    position: relative;
+}
+.lol{
+    margin-left: -15.78px;
+    display: flex;
+    position: relative;
+}
+.lol2{
+    margin-left: -52.78px;
+}
+
+input[type=submit]{
+    margin: 15px 8px 30px 8px;
+    width: 110.867px;
+    height: 48.78px;
+    border: 0px;
+    opacity: .8;
+    background-color: #714bdc;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18pt;
+    font-weight: 150;
+    align-content: center;
+    margin: 70px 0px;
+    box-shadow:3px 5px 6px rgba(0,0,0,.3);
+  }
+  
+input[type=submit]:hover{
+    background-color: #5e38c7;
+    filter: brightness(1.1);
+    transform: scale(1.02);
+    transition-duration: .2s;
+    box-shadow:3px 5px 6px rgba(0,0,0,.5);
+  }
+
+  #phone_err{
+    position: absolute;
+    top:33px;
+    left:550px;
+    opacity:0.8;
+    display:none;
+  }
+
+  #dob_err{
+    position: absolute;
+    top:33px;
+    left:240px;
+    opacity:0.8;
+    display:none;
+  }
+
+#accomp_err{
+    position: absolute;
+    left:155px;
+    top:210px;
+    opacity:0.8;
+    display:none;
+  }
+
+
+  #edu_err{
+    position: absolute;
+    opacity:0.8;
+    display:none;
+    left:258px;
+    top:32px;
+
+  }
+  
+  #prof_err{
+    position: absolute;
+    opacity:0.8;
+    display:none;
+    left:250px;
+    top:32px;
+
+  }
+
+  #exp_err{
+    position: absolute;
+    opacity:0.8;
+    display:none;
+    padding-left: 10px;
+    padding-top: 3px;
+  }
+
+  #who_err{
+    position: absolute;
+    opacity:0.8;
+    display:none;
+    left:330px;
+    top:8px;
+
+  }

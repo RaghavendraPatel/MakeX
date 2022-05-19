@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'quicksand''open sans';
+}
+body{
+    background-color: #efefef;
+    overflow: hidden;
+}
+.outer{
+    display: flex;
+    margin: 30px;
+    height:920px;
+   
+
+}
+.left{
+    background-image: url("../assets/cust-bg.png");
+    width: 430px;
+    padding: 30px 20px 60px 60px;
+    border: .5px solid #707070;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-right:20px ;
+    background-color: rgba(255,255,255,.3);
+    
+}
+.center{
+    background-color: white;
+    width: 980px;
+    border: .5px solid #707070;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-right:20px ;
+   
+}
+.right{
+    background-image: url("../assets/right-bg.png");
+    background-position: -2px -2px;
+    width: 430px;
+    padding: 20px;
+    border: .5px solid #707070;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.dash-name{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0px;
+}
+.dash-ele{
+    color: black;
+    margin-top: 40px;
+    width: 100%;
+}
+ .dash-ele:hover{
+    cursor: pointer;
+    color:#707070;
+    border-right:3px solid #6089FF !important;
+}
+/* #item2{
+    border-right:5px solid #6089FF;
+} */
+.dash-usr{
+    margin-top: 210px;
+    width: 100%;
+    display: inline-flex;
+}
+.dash-usr:hover{
+    cursor: pointer;
+   
+}
+.center-usr{
+    color:#707070;
+    margin: 20px 40px 10px ;
+    width: 100%;
+    display: inline-flex;
+}
+
+.center-content{
+    margin: 0px 36px ;
+    border: .5px solid #707070;
+    background-color:rgb(247,246,244);
+    border-radius: 20px;
+    height: 780px;
+    width: 894px;
+    box-sizing: border-box;
+    padding:33px ;
+    overflow: hidden;
+}
+
+#daash::-webkit-scrollbar{
+    display: none;
+}
+
+.sp{
+    height:180px;
+}
+
+
+/* Project */
+
+.empty{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+    background: rgba(172, 172, 172, 0.151);  
+    margin-bottom: 40px;
+}
+.shadow {
+    -moz-box-shadow:    inset 0 0 40px #white;
+    -webkit-box-shadow: inset 0 0 40px #white;
+    box-shadow:         inset 0 0 40px #white;
+ }
+.create-btn{
+    background-color: #6089FF;
+    width: 199px;
+    height:48px;
+    justify-content: center;
+    border-radius: 24px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,.16);
+    margin: auto;
+    padding-top: 8px;
+}
+.create-btn:hover{
+    cursor: pointer;
+    filter: brightness(.95);
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.16);
+}
+.create-btn1{
+    background-color: #6089FF;
+    width: 199px;
+    height:40px;
+    justify-content: center;
+    border:none;
+    border-radius: 24px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,.16);
+    padding-top: 0px;
+}
+.create-btn1:hover{
+    cursor: pointer;
+    filter: brightness(.95);
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.16);
+}
+.prog{
+    height:80px;
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+}
+.step1{
+    height: 120%;
+}
+.step-content{
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    padding: 20px 30px 20px 30px;
+}
+.inp{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.step-content textarea{
+    margin: 10px 0px;
+    width: 100%;
+    height: 100px;
+}
+.upload{
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='1' stroke-dasharray='12' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    padding:10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.upload button{
+    width: 144px !important;
+    height: 40px;
+    border: 0px;
+    padding:2px 4px;
+    color: white;
+    background-color: #6089FF !important;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px !important;
+}
+.step-content button{
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    padding:2px 4px;
+    color: white;
+    background-color: #6200EE;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.s2-plan{
+    margin: 10px 0px 30px 0px;
+    height: 150px;
+    padding: 12px 20px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='1' stroke-dasharray='12' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    display: flex;
+}
+
+/* plans */
+.sel-plan{
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,.16);
+}
+.sel-plan:hover{
+    cursor: pointer;
+    transform: scale(1.02,1.02);
+}
+.plan-img{
+    width: 160px;
+    height: 125px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.active-img{
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+.active-img:hover{
+    cursor: pointer;
+    filter: brightness(.95);
+}
+#upgrade{
+    background: none;
+    width:150px;
+    height:40px;
+    margin: 20px 60px;
+    border: 1px solid #2ba869;
+    color: #2ba869;
+    border-radius: 5px;
+}
+#upgrade:hover{
+    transform: scale(1.04,1.04);
+}
+
+.nav-content{
+    background-color: white;
+    border-top: 0px;
+    width: 100%;
+    padding:10px 25px;
+    height: 615.00001px;
+}
+.active{
+    background-color: #f8f8ff !important;   
+}
+.truncate{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.collapsed:hover{
+    cursor: pointer;
+}
+
+#myTabContent::-webkit-scrollbar{
+    display: none;
+}
+.notification{
+    color: rgba(0,0,0,.6);
+}
+.notification:hover{
+    cursor: pointer;
+    animation: bellshake .5s cubic-bezier(.36,.07,.19,.97) both;
+    backface-visibility: hidden;
+    transform-origin: top right;
+}
+@keyframes bellshake {
+    0% { transform: rotate(0); }
+    15% { transform: rotate(5deg); }
+    30% { transform: rotate(-5deg); }
+    45% { transform: rotate(4deg); }
+    60% { transform: rotate(-4deg); }
+    75% { transform: rotate(2deg); }
+    85% { transform: rotate(-2deg); }
+    92% { transform: rotate(1deg); }
+    100% { transform: rotate(0); }
+  }
+
+  .lol123{
+      background-color: rgba(255,255,255,.7);
+      border-radius: 8px;
+      padding-bottom: 10px;
+  }
+  .lol1234:hover{
+      cursor: pointer;
+      filter: brightness(.95);
+  }

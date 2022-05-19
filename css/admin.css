@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Google Sans","Open Sans","quicksand";
+    
+}
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.top{
+    background-color:#efefef ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    padding: 35px 20px; 
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+#out::-webkit-scrollbar{
+    display: none;
+}

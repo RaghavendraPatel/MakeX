@@ -1,0 +1,128 @@
+html{
+
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans';
+    background-color: #efefef;
+}
+.notnav{
+    background-color: #efefef;
+}
+
+
+.anyone{
+    border-radius: 15px;
+    border: 1px solid #707070;
+ 
+}
+
+.price{
+    border-radius: 15px;
+}
+.crd{
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+   
+    
+}
+
+
+.btn1{
+    background-color: #714bdc;
+    color: white;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: #714bdc;
+    filter: brightness(1.1);
+    transform: scale(1.04);
+    transition-duration: .2s;
+}
+
+.create{
+    color: #714bdc;
+}
+
+.plan{
+  color: #DB5F5F;  
+}
+#login
+{
+width:90px;
+color: #714bdc;
+border:1px solid #714bdc;
+}
+
+#login:hover{
+    background-color: #714bdc;
+    color: #efefef;
+    transition: .3s;
+}
+
+#signup{
+    width:90px;
+    background-color: #DB5F5F;
+    border:1px solid #DB5F5F;
+
+}
+
+#signup:hover{
+    background-color: #efefef;
+    transition: .3s;
+    color:#DB5F5F;
+}
+
+.wow{
+    position: relative;
+    top:-210px ;
+    z-index:1;
+}
+
+.wow-par{
+    
+        height:750px;
+ }
+
+ .cool a{
+     color: white;
+ }
+#log{
+    align-items: center;
+    justify-content: left;
+    top: 5px;
+    width: 45px;
+    height: 42px;
+    overflow: hidden;
+    position: relative;
+    border-radius:30px;
+}
+#log:hover{
+    width: 235px;
+    display:flex;
+    transition: .5s;
+    border: 1px solid #707070;
+    border-radius:30px;
+}
+.log-exp{
+    top:1px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: #707070;
+    text-decoration: none; 
+    margin: 0px 7px;
+    padding: 2px 10px 4px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.log-exp:hover{
+     background-color: #707070;
+     color: white;
+     text-decoration: none;
+}
+#usr-btn{
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
